@@ -36,7 +36,7 @@ void Task_3() {
 }
 
 void Task_4() {
-    int x, y;
+    double x, y;
     cout << "This program calculates the value of the function y = 3x^6 − 6x^2 − 7. " << endl;
     cout << "Enter the number:" << endl << "x = "; cin >> x;
     y = 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
@@ -44,7 +44,7 @@ void Task_4() {
 }
 
 void Task_5() {
-    int x, y;
+    double x, y;
     cout << "This program calculates the value of the function y = 4(x - 3)^6 - 7(x - 3)^3 + 2." << endl;
     cout << "Enter the number:" << endl << "x = "; cin >> x;
     y = 4 * pow((x - 3), 6) - 7 * pow((x - 3), 3) + 2;
@@ -52,7 +52,7 @@ void Task_5() {
 }
 
 void Task_6() {
-    int a, a_8;
+    double a, a_8;
     cout << "This program calculates A^8." << endl;
     cout << "Enter the number:" << endl << "A = "; cin >> a;
     a_8 = a * a; a_8 *= a_8; a_8 *= a_8;
@@ -60,7 +60,7 @@ void Task_6() {
 }
 
 void Task_7() {
-    int a, a_15, a_3;
+    double a, a_15, a_3;
     cout << "This program calculates A^15." << endl;
     cout << "Enter the number:" << endl << "A = "; cin >> a;
     a_3 = a * a * a; a_15 = a_3 * a_3; a_15 *= a_15 * a_3;
