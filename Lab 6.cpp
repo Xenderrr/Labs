@@ -52,18 +52,18 @@ void Task_5() {
 }
 
 void Task_6() {
-    double a, a_8;
+    double a, a_2, a_4, a_8;
     cout << "This program calculates A^8." << endl;
     cout << "Enter the number:" << endl << "A = "; cin >> a;
-    a_8 = a * a; a_8 *= a_8; a_8 *= a_8;
+    a_2 = a * a; a_4 = a_2 * a_2; a_8 = a_4 * a_4;
     cout << "Result: A^8 = " << a_8 << endl;
 }
 
 void Task_7() {
-    double a, a_15, a_3;
+    double a, a_15, a_3, a_6;
     cout << "This program calculates A^15." << endl;
     cout << "Enter the number:" << endl << "A = "; cin >> a;
-    a_3 = a * a * a; a_15 = a_3 * a_3; a_15 *= a_15 * a_3;
+    a_3 = a * a * a; a_6 = a_3 * a_3; a_15 *= a_6 * a_6 * a_3;
     cout << "Result: A^15 = " << a_15 << endl;
 }
 
