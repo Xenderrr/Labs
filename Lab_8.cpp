@@ -12,7 +12,7 @@ void Task_1() {
     }
     else {
         a /= 1024;
-        cout << "Result: A = " << floor(a) << " KB" << endl;
+        cout << "Result: A = " << ceil(a) << " KB" << endl;
     }
 }
 
