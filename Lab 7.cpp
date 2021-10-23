@@ -90,6 +90,12 @@ void Task_6() {
     else {
         x = (c1 * b2 - b1 * c2) / d;
         y = (a1 * c2 - c1 * a2) / d;
+        if(y == -0){
+            y = 0;
+        }
+        if(x == -0){
+            x = 0;
+        }
         cout << "Result: x = " << x << ", y = " << y << endl;
     }
 }
