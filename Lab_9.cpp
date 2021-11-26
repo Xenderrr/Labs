@@ -46,6 +46,8 @@ void Task_3() {
             r = 7 + n;
         } else
             r = k % 7 + n;
+        if (r > 7)
+            r %= 7;
         cout << "Result: " << r << endl;
     }
 }
