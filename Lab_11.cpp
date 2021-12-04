@@ -23,7 +23,7 @@ void Task_1() {
 void Task_2() {
     float a, b, c, sum, max1, max2;
     cout << "This program finds the sum of the two largest numbers of the three entered." << endl;
-    cout << ("Enter the values:") << endl << "A = "; cin >> a; cout << "B = "; cin >> b; cout << "C = "; cin >> c;//А если равны наименьшие?
+    cout << ("Enter the values:") << endl << "A = "; cin >> a; cout << "B = "; cin >> b; cout << "C = "; cin >> c;
     if ((a < b) && (a < c)) {
         sum = b + c;
     }
@@ -81,14 +81,14 @@ void Task_4() {
                 q = 1;
             }
             else
-                q = 2;
+                q = 4;
         }
         else {
             if (ny < 0) {
                 q = 3;
             }
             else
-                q = 4;
+                q = 2;
         }
     }
     cout << "The point lies in " << q << " quarter." << endl;
